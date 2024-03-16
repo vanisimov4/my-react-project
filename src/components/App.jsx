@@ -1,11 +1,17 @@
 // src/components/App.jsx
 
-import { Product } from "./Product";
+import Product from "./Product";
 
 export default function App() {
   return (
     <div>
-      <h1>Best selling</h1>
+      <h1 style={{
+        margin: 8,
+        padding: "12px 16px",
+        borderRadius: 4,
+        backgroundColor: "gray",
+        color: "white",
+      }}>Best selling</h1>
 
       <Product
         name="Tacos With Lime"
